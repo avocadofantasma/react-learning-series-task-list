@@ -1,0 +1,24 @@
+.task {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.task.task-col {
+    width: 30%;
+}
+
+/* .priority-low {
+    background: rgb(121, 182, 121) !important; 
+ }
+ 
+ .priority-regular {
+    background: rgb(173, 173, 124) !important; 
+ }
+ 
+ .priority-high {
+    background: rgb(146, 82, 82) !important; 
+ } */
+
+ .task.done {
+     text-decoration: line-through !important;
+ }
